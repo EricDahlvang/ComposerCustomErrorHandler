@@ -1,0 +1,52 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+]
+
+# SendActivity_Greeting_text()
+- Welcome to your bot.
+
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that.
+# TextInput_Prompt_hfQdPb()
+[Activity
+    Text = ${TextInput_Prompt_hfQdPb_text()}
+]
+
+# TextInput_Prompt_hfQdPb_text()
+- Please send some text
+# SendActivity_NpmnfH()
+[Activity
+    Text = ${SendActivity_NpmnfH_text()}
+]
+
+# SendActivity_NpmnfH_text()
+- you sent ${user.sentText}
+# SendActivity_sCZ83j()
+[Activity
+    Text = ${SendActivity_sCZ83j_text()}
+]
+
+# SendActivity_sCZ83j_text()
+- after
+# SendActivity_cLdnbb()
+[Activity
+    Text = ${SendActivity_cLdnbb_text()}
+]
+
+# SendActivity_cLdnbb_text()
+- On Error Dialog handled an error.
+# SendActivity_eAFAbE()
+[Activity
+    Text = ${SendActivity_eAFAbE_text()}
+]
+
+# SendActivity_eAFAbE_text()
+- divide by zero ${1/0}
